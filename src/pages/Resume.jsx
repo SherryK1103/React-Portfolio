@@ -5,15 +5,13 @@ const Resume = () => {
     <div>
       <h1>Sherry Kneitz</h1>
       <p>Email: sherrykneitz@gmail.com</p>
-      <p>Location: Elgin, IL</p>
-      <p>Phone: 385-246-7771</p>
-
+      
       <div className="job-entry">
         <h2>TekSynap Corporation, Reston, VA (Remote)</h2>
         <p>Configuration Analyst</p>
         <p>November 2021 to Present</p>
         <ul>
-          <li>Process floorplans using AutoCad or existing PDF files to create deliverable packages</li>
+          <li>Process floorplans using AutoCad to create deliverable packages</li>
           <li>Modify existing files, images, reports, documentation, etc. as required</li>
           <li>Analyzing, tracking, and preparation of documentation throughout lifecycle</li>
           <li>Creating different types of files (PDF, JPEGs, PNGs, etc.,)</li>
@@ -73,7 +71,7 @@ const Resume = () => {
       <h2>Volunteer Work</h2>
       <ul>
         <li>Street Reach Organization serving meals and homeless outreach (Thompson Center)</li>
-        <li>Cradles to Crayons Nonprofit managing donations for children's items</li>
+        <li>Cradles to Crayons Nonprofit managing donations for childrens items</li>
         <li>Veterans organizations and Senior Assisted Living Centers Choirs and singing performances</li>
       </ul>
 
