@@ -71,9 +71,7 @@ const Resume = () => {
       <ul>
       <li>Northwestern University - EdEx Fullstack Web Development Bootcamp </li>
       <li>Elgin Community College</li>
-
       </ul>
-     
     </div>
   );
 };
