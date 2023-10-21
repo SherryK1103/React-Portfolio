@@ -2,12 +2,11 @@ const Resume = () => {
   return (
     <div>
       <h1>Sherry Kneitz</h1>
-      <p>Email: sherrykneitz@gmail.com</p>
+      <p className="email">Email: sherrykneitz@gmail.com</p>
       
       <div className="job-entry">
         <h2>TekSynap Corporation, Reston, VA (Remote)</h2>
-        <p>Configuration Analyst</p>
-        <p>November 2021 to Present</p>
+        <p>Configuration Analyst - November 2021 to Present</p>
         <ul>
           <li>Process floorplans using AutoCad to create deliverable packages</li>
           <li>Modify existing files, images, reports, documentation, etc. as required</li>
@@ -22,10 +21,8 @@ const Resume = () => {
 
       <div className="job-entry">
         <h2>Brown and Joseph LLC, Itasca, IL</h2>
-        <p>Supervisor, Skip Tracing and Pre-Litigation Operations</p>
-        <p>November 2020 to Present</p>
-        <p>Skip Tracer and Litigation Coordinator</p>
-        <p>June 2018 to December 2019</p>
+        <p>Supervisor, Skip Tracing and Pre-Litigation Operations - November 2020 to Present</p>
+        <p>Skip Tracer and Litigation Coordinator - June 2018 to December 2019</p>
         <ul>
           <li>Effectively complete skip tracing a high volume of accounts on a daily basis</li>
           <li>Supervise comprehensive case investigations for clients: evaluate past efforts, manage data and conduct research, evaluate and project potential for litigation, and provide official recommendation</li>
@@ -39,12 +36,9 @@ const Resume = () => {
 
       <div className="job-entry">
         <h2>Myers Service, Inc. dba MSI Detective Services, Chicago, IL</h2>
-        <p>Director of Special Investigations</p>
-        <p>April 2017 to May 2018</p>
-        <p>Senior Investigator</p>
-        <p>September 2013 to March 2017</p>
-        <p>Special Investigator</p>
-        <p>March 2013 to September 2013</p>
+        <p>Director of Special Investigations - April 2017 to May 2018</p>
+        <p>Senior Investigator - September 2013 to March 2017</p>
+        <p>Special Investigator - March 2013 to September 2013</p>
         <ul>
           <li>Analyzed data to develop qualified leads that resulted in cases solved, contributing to a 60% increase in solved cases 2015-2018</li>
           <li>Successfully managed and directed skip tracing and locate investigations daily</li>
@@ -68,13 +62,18 @@ const Resume = () => {
 
       <h2>Volunteer Work</h2>
       <ul>
-        <li>Street Reach Organization serving meals and homeless outreach (Thompson Center)</li>
+        <li>Street Reach - Organization serving meals and homeless outreach (Thompson Center)</li>
         <li>Cradles to Crayons Nonprofit managing donations for childrens items</li>
         <li>Veterans organizations and Senior Assisted Living Centers Choirs and singing performances</li>
       </ul>
 
       <h2>Education</h2>
-      <p>Elgin Community College</p>
+      <ul>
+      <li>Northwestern University - EdEx Fullstack Web Development Bootcamp </li>
+      <li>Elgin Community College</li>
+
+      </ul>
+     
     </div>
   );
 };
