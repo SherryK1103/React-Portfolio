@@ -1,5 +1,5 @@
 // Here we are importing a CSS file as a dependency
-import '../../src/Header';
+import '../../src/Header.css';
 
 function Header() {
   return (
