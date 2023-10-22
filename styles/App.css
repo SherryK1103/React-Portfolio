@@ -44,8 +44,11 @@ h1 {
   text-align: center;
 }
 
-p, ul, li, h2 {
+.job-entry {
   text-align: left;
+  h2, p, ul, li {
+    text-align: left;
+  }
 }
 
 .email {
@@ -56,3 +59,21 @@ p, ul, li, h2 {
   height: 275px;
   width: 175px;
 }
+
+#about-section {
+  display: flex;
+  align-items: flex-start;
+}
+
+#about-photo {
+  float: left;
+  margin: 10px;
+}
+
+#about-me {
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 0;
+  flex: 1;
+}
+
