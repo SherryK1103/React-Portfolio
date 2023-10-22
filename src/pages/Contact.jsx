@@ -1,4 +1,51 @@
 export default function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const [errors, setErrors] = useState({
+    name: '',
+    email: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+
+    // Validate the email field
+    if (name === 'email') {
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      if (!emailRegex.test(value)) {
+        setErrors({ ...errors, email: 'Invalid email address' });
+      } else {
+        setErrors({ ...errors, email: ''});
+      }
+    }
+  
+    // Clear validation error when user types
+    if (errors[name]) {
+      setErrors({ ...errors, [name]: ''});
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Validate the form before submission
+    const newErrors = {};
+    if (!formData.name) newErrors.name = 'This field is required';
+  }
+
+
+
+
+
+
   return (
     <div>
       <section id="contact-me" className="main-content">
