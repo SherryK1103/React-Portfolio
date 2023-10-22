@@ -10,8 +10,8 @@ export default function About() {
         />
       </section>
 
-      <section id="about-me" className="main-content">
-        <h4 className="sub-heading">Work History</h4>
+      <section id="about-me">
+        <h4>Work History</h4>
           <p>
             I have an eclectic work history ranging from nannying to the
             automotive industry. The most interesting job I have ever had is the
@@ -22,7 +22,7 @@ export default function About() {
             investigations. I have quite a few stories!
           </p>
 
-        <h4 className="sub-heading">My Coding Journey</h4>
+        <h4>My Coding Journey</h4>
           <p>
             The coding seed was planted in my mind a while back when I
             receptionist at a scale company in 2008. I was tasked with utilizing

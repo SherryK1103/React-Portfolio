@@ -58,7 +58,6 @@ export default function Contact() {
     }
   };
 
-
   return (
     <div>
       <section id="contact-me" className="main-content">
