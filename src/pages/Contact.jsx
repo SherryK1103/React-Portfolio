@@ -60,7 +60,7 @@ export default function Contact() {
 
   return (
     <div>
-      <section id="contact-me" className="main-content">
+      <section id="contact-me">
         <h2>Contact Me</h2>
         <ul>
           <li> Email: <a href="mailto:sherrykneitz@gmail.com">sherrykneitz@gmail.com</a></li>
