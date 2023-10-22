@@ -1,9 +1,8 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>    
+      <h1>About Me</h1>    
       <section id="about-me" className="main-content">
-        <h1>About Me</h1>
         <h4 className="sub-heading">Work History</h4>
         <p>
           I have an eclectic work history ranging from nannying to the
