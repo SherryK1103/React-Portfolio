@@ -69,7 +69,7 @@ export default function Contact() {
         </ul>
         <form onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name: </label>
             <input
               type="text"
               id="name"
@@ -81,7 +81,7 @@ export default function Contact() {
             {errors.name && <p className="error">{errors.name}</p>}
           </div>
           <div>
-            <label htmlFor="email">Email:</label>
+            <label htmlFor="email">Email: </label>
             <input
               type="email"
               id="email"
@@ -93,7 +93,7 @@ export default function Contact() {
             {errors.email && <p className="error">{errors.email}</p>}
           </div>
           <div>
-            <label htmlFor="message">Message:</label>
+            <label htmlFor="message">Message: </label>
             <textarea
               id="message"
               name="message"
