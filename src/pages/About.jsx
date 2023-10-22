@@ -1,3 +1,5 @@
+import myPhoto from '../../assets/images/IMG_SHERRY2.jpg';
+
 export default function About() {
   return (
     <div>
@@ -29,6 +31,11 @@ export default function About() {
           talking on social media about how they changed their careers by
           learning how to code.
         </p>
+      </section>
+
+      <section>
+        <img src={myPhoto} alt="Photo of Sherry" className="sherry-photo"
+        />
       </section>
     </div>
   );

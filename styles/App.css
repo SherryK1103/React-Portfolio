@@ -51,3 +51,8 @@ p, ul, li, h2 {
 .email {
   text-align: center;
 }
+
+.sherry-photo {
+  height: 275px;
+  width: 175px;
+}
