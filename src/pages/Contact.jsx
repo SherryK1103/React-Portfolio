@@ -62,13 +62,13 @@ export default function Contact() {
     <div>
       <section id="contact-me">
         <h2>Contact Me</h2>
-        <ul>
+        <ul id="links">
           <li> Email: <a href="mailto:sherrykneitz@gmail.com">sherrykneitz@gmail.com</a></li>
           <li> GitHub: <a href="https://github.com/SherryK1103">GitHub Profile</a></li>
           <li> LinkedIn: <a href="https://www.linkedin.com/in/sherry-kneitz-560482186/">LinkedIn Profile</a></li>
         </ul>
         <form onSubmit={handleSubmit}>
-          <div>
+          <div className='contact-form'>
             <label htmlFor="name">Name: </label>
             <input
               type="text"
@@ -80,7 +80,7 @@ export default function Contact() {
             />
             {errors.name && <p className="error">{errors.name}</p>}
           </div>
-          <div>
+          <div className='contact-form'>
             <label htmlFor="email">Email: </label>
             <input
               type="email"
@@ -92,7 +92,7 @@ export default function Contact() {
             />
             {errors.email && <p className="error">{errors.email}</p>}
           </div>
-          <div>
+          <div className='contact-form'>
             <label htmlFor="message">Message: </label>
             <textarea
               id="message"
@@ -102,7 +102,7 @@ export default function Contact() {
               required
             />
           </div>
-          <button type="submit">Send</button>
+          <button type="submit" className='send'>Send</button>
         </form>
       </section>
     </div>
