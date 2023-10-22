@@ -1,4 +1,4 @@
-import myPhoto from '../../assets/images/IMG_SHERRY2.jpg';
+import myPhoto from '../assets/images/IMG_SHERRY2.jpg';
 
 export default function About() {
   return (
