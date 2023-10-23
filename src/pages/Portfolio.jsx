@@ -2,21 +2,127 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+
+      <section id="my-work" className="main-content">
+        {/* Project One */}
+        <div className="card">
+          <h4>SEO HTML Refactor</h4>
+          <p>
+            The SEO HTML Refactor assignment was my first project at the
+            NorthWestern University Coding Bootcamp. We were given a webpage
+            with code and were charged with consolidating redundant code,
+            changing it from non-semantic elements to semantic elements to
+            improve SEO as well as comply with AAA standards. This assignment
+            displayed the skills I had learned in HTML and CSS.
+          </p>
+          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+            <img
+              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
+              alt="screenshot of SEO webpage"
+              className="first-webpage-photo"
+            />
+          </a>
+          <p id="project_one_title">SEO HTML Refactor</p>
+        </div>
+
+        {/* Project Two */}
+        <div className="card">
+          <h4>Green Thumb Guide</h4>
+          <p>Talk about the Green Thumb Guide HERE.</p>
+          <a href="https://github.com/SherryK1103/Green-Thumb-Guide">
+            <img
+              src="../assets/images/GREEN-THUMB-SS"
+              alt="screenshot of green thumb guide"
+              className="green-thumb-ss"
+            />
+          </a>
+          <p id="green-title">Green Thumb Guide</p>
+        </div>
+
+        {/* Project Three */}
+        <div className="card">
+          <h4>SEO HTML Refactor</h4>
+          <p>
+            The SEO HTML Refactor assignment was my first project at the
+            NorthWestern University Coding Bootcamp. We were given a webpage
+            with code and were charged with consolidating redundant code,
+            changing it from non-semantic elements to semantic elements to
+            improve SEO as well as comply with AAA standards. This assignment
+            displayed the skills I had learned in HTML and CSS.
+          </p>
+          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+            <img
+              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
+              alt="screenshot of SEO webpage"
+              className="first-webpage-photo"
+            />
+          </a>
+          <p id="project_one_title">SEO HTML Refactor</p>
+        </div>
+
+        {/* Project Four */}
+        <div className="card">
+          <h4>SEO HTML Refactor</h4>
+          <p>
+            The SEO HTML Refactor assignment was my first project at the
+            NorthWestern University Coding Bootcamp. We were given a webpage
+            with code and were charged with consolidating redundant code,
+            changing it from non-semantic elements to semantic elements to
+            improve SEO as well as comply with AAA standards. This assignment
+            displayed the skills I had learned in HTML and CSS.
+          </p>
+          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+            <img
+              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
+              alt="screenshot of SEO webpage"
+              className="first-webpage-photo"
+            />
+          </a>
+          <p id="project_one_title">SEO HTML Refactor</p>
+        </div>
+
+        {/* Project Five */}
+        <div className="card">
+          <h4>SEO HTML Refactor</h4>
+          <p>
+            The SEO HTML Refactor assignment was my first project at the
+            NorthWestern University Coding Bootcamp. We were given a webpage
+            with code and were charged with consolidating redundant code,
+            changing it from non-semantic elements to semantic elements to
+            improve SEO as well as comply with AAA standards. This assignment
+            displayed the skills I had learned in HTML and CSS.
+          </p>
+          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+            <img
+              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
+              alt="screenshot of SEO webpage"
+              className="first-webpage-photo"
+            />
+          </a>
+          <p id="project_one_title">SEO HTML Refactor</p>
+        </div>
+
+        {/* Project Six */}
+        <div className="card">
+          <h4>SEO HTML Refactor</h4>
+          <p>
+            The SEO HTML Refactor assignment was my first project at the
+            NorthWestern University Coding Bootcamp. We were given a webpage
+            with code and were charged with consolidating redundant code,
+            changing it from non-semantic elements to semantic elements to
+            improve SEO as well as comply with AAA standards. This assignment
+            displayed the skills I had learned in HTML and CSS.
+          </p>
+          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+            <img
+              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
+              alt="screenshot of SEO webpage"
+              className="first-webpage-photo"
+            />
+          </a>
+          <p id="project_one_title">SEO HTML Refactor</p>
+        </div>
+      </section>
     </div>
   );
 }
