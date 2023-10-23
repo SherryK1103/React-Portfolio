@@ -8,6 +8,7 @@ export default function Portfolio() {
         <div className="card">
           <h4>Green Thumb Guide</h4>
           <p>Talk about the Green Thumb Guide HERE.</p>
+          {/* Add link to deployed site */}
           <a href="https://github.com/SherryK1103/Green-Thumb-Guide">
             <img
               src="../assets/images/GREEN-THUMB-SS.jpg"
@@ -29,14 +30,15 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
-          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+           {/* Add link to deployed site */}
+          <a href="https://github.com/SherryK1103/MVC-Tech-Blog">
             <img
               src="../assets/images/MVC-SS.png"
               alt="screenshot of MVC Tech Blog"
-              className="first-webpage-photo"
+              className="mvc-photo"
             />
           </a>
-          <p id="project_one_title">SEO HTML Refactor</p>
+          <p id="mvc-title">MVc Tech Blog</p>
         </div>
 
         {/* Project Three ****************************************************/}
@@ -50,14 +52,15 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
-          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+           {/* Add link to deployed site */}
+          <a href="https://github.com/SherryK1103/Note-Taker-08">
             <img
               src="../assets/images/NOTE-TAKER-SC.png"
               alt="screenshot of note taker"
-              className="first-webpage-photo"
+              className="note-photo"
             />
           </a>
-          <p id="project_one_title">SEO HTML Refactor</p>
+          <p id="note-title">Note Taker</p>
         </div>
 
         {/* Project Four ********************************************************/}
@@ -71,14 +74,15 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
-          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+           {/* Add link to deployed site */}
+          <a href="https://github.com/SherryK1103/Group-Challenge-01-50-States">
             <img
               src="../assets/images/50-STATES-SCREENSHOT.png"
               alt="screenshot of 50 states project"
-              className="first-webpage-photo"
+              className="50-photo"
             />
           </a>
-          <p id="project_one_title">SEO HTML Refactor</p>
+          <p id="50-title">50 States Flash Facts</p>
         </div>
 
         {/* Project Five *******************************************************/}
@@ -92,14 +96,15 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
-          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
+           {/* Add link to deployed site */}
+          <a href="https://github.com/SherryK1103/Weather-Dashboard-06">
             <img
               src="../assets/images/WEATHER-DASH-SS.png"
               alt="screenshot of weather dashboard"
-              className="first-webpage-photo"
+              className="weather-photo"
             />
           </a>
-          <p id="project_one_title">SEO HTML Refactor</p>
+          <p id="weather-title">Weather Dashboard</p>
         </div>
 
         {/* Project Six **********************************************************/}
@@ -113,6 +118,7 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
+           {/* Add link to deployed site */}
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
               src="../assets/images/workday-scheduler-5.png"
@@ -134,6 +140,7 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
+           {/* Add link to deployed site */}
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
               src="../assets/images/WEB-API-SCREENSHOT2.png"
