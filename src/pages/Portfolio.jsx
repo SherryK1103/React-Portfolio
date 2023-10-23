@@ -4,7 +4,7 @@ export default function Portfolio() {
       <h1>Portfolio</h1>
 
       <section id="my-work" className="main-content">
-        {/* Project One */}
+        {/* Project One ********************************************************/}
         <div className="card">
           <h4>SEO HTML Refactor</h4>
           <p>
@@ -25,7 +25,7 @@ export default function Portfolio() {
           <p id="project_one_title">SEO HTML Refactor</p>
         </div>
 
-        {/* Project Two */}
+        {/* Project Two ********************************************************/}
         <div className="card">
           <h4>Green Thumb Guide</h4>
           <p>Talk about the Green Thumb Guide HERE.</p>
@@ -39,7 +39,7 @@ export default function Portfolio() {
           <p id="green-title">Green Thumb Guide</p>
         </div>
 
-        {/* Project Three */}
+        {/* Project Three ****************************************************/}
         <div className="card">
           <h4>SEO HTML Refactor</h4>
           <p>
@@ -60,7 +60,7 @@ export default function Portfolio() {
           <p id="project_one_title">SEO HTML Refactor</p>
         </div>
 
-        {/* Project Four */}
+        {/* Project Four ********************************************************/}
         <div className="card">
           <h4>SEO HTML Refactor</h4>
           <p>
@@ -81,7 +81,7 @@ export default function Portfolio() {
           <p id="project_one_title">SEO HTML Refactor</p>
         </div>
 
-        {/* Project Five */}
+        {/* Project Five *******************************************************/}
         <div className="card">
           <h4>SEO HTML Refactor</h4>
           <p>
@@ -102,7 +102,7 @@ export default function Portfolio() {
           <p id="project_one_title">SEO HTML Refactor</p>
         </div>
 
-        {/* Project Six */}
+        {/* Project Six **********************************************************/}
         <div className="card">
           <h4>SEO HTML Refactor</h4>
           <p>
