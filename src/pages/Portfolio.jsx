@@ -1,3 +1,5 @@
+import greenThumb from '../assets/images/GREEN-THUMB-SS.png';
+
 export default function Portfolio() {
   return (
     <div>
@@ -11,7 +13,7 @@ export default function Portfolio() {
           {/* Add link to deployed site */}
           <a href="https://github.com/SherryK1103/Green-Thumb-Guide">
             <img
-              src="../assets/images/GREEN-THUMB-SS.jpg"
+              src={ greenThumb }
               alt="screenshot of green thumb guide"
               className="green-thumb-ss"
             />
