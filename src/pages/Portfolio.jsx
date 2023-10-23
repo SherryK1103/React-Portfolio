@@ -10,7 +10,7 @@ export default function Portfolio() {
           <p>Talk about the Green Thumb Guide HERE.</p>
           <a href="https://github.com/SherryK1103/Green-Thumb-Guide">
             <img
-              src="../assets/images/GREEN-THUMB-SS"
+              src="../assets/images/GREEN-THUMB-SS.jpg"
               alt="screenshot of green thumb guide"
               className="green-thumb-ss"
             />
@@ -31,8 +31,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/MVC-SS.png"
+              alt="screenshot of MVC Tech Blog"
               className="first-webpage-photo"
             />
           </a>
@@ -52,8 +52,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/NOTE-TAKER-SC.png"
+              alt="screenshot of note taker"
               className="first-webpage-photo"
             />
           </a>
@@ -73,8 +73,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/50-STATES-SCREENSHOT.png"
+              alt="screenshot of 50 states project"
               className="first-webpage-photo"
             />
           </a>
@@ -94,8 +94,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/WEATHER-DASH-SS.png"
+              alt="screenshot of weather dashboard"
               className="first-webpage-photo"
             />
           </a>
@@ -115,8 +115,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/workday-scheduler-5.png"
+              alt="screenshot of workday scheduler"
               className="first-webpage-photo"
             />
           </a>
@@ -136,8 +136,8 @@ export default function Portfolio() {
           </p>
           <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
             <img
-              src="./Assets/Images/SEO-HTML-REFACTOR-PHOTO.png"
-              alt="screenshot of SEO webpage"
+              src="../assets/images/WEB-API-SCREENSHOT2.png"
+              alt="screenshot of coding quiz"
               className="first-webpage-photo"
             />
           </a>
