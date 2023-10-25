@@ -1,4 +1,5 @@
-import greenThumb from '../assets/images/GREEN-THUMB-SS.png';
+import Projects from '../components/Projects'
+// leave outer divs, leave h1, sections id my work and main content
 
 export default function Portfolio() {
   return (
@@ -7,17 +8,11 @@ export default function Portfolio() {
 
       <section id="my-work" className="main-content">
         {/* Project One ********************************************************/}
-        <div className="card">
+        <div>
           <h4>Green Thumb Guide</h4>
-          <p>Talk about the Green Thumb Guide HERE.</p>
-          {/* Add link to deployed site */}
-          <a href="https://github.com/SherryK1103/Green-Thumb-Guide">
-            <img
-              src={ greenThumb }
-              alt="screenshot of green thumb guide"
-              className="green-thumb-ss"
-            />
-          </a>
+            {/* Import projects */}
+          
+          
           <p id="green-title">Green Thumb Guide</p>
         </div>
 

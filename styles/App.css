@@ -97,3 +97,87 @@ label {
   height: 200px;
   width: 300px;
 }
+
+* { font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FCE8F5;
+}
+
+header {
+    border: black;
+    border-style: double;
+    > h1 {
+        margin-left: 15px;
+    }
+}
+
+.sherry-photo {
+    height: 275px;
+    width: 200px;
+}
+
+p {
+    font-size: 100%;
+}
+
+section {
+    border: double black;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
+    padding: 10px;
+}
+
+.main-content {
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #fcf9fb;
+}
+
+.first-webpage-photo {
+    height: 200px;
+    width: 350px;
+}
+
+#project_one_title {
+    position: relative;
+    left: 20px;
+    top: -50px;
+    width: 150px;
+    color: black;
+    background-color: lightgrey;
+}
+
+@media screen and (max-width:600px) {
+    body {
+        display: inline;
+    }
+}
+
+.photo-of-flowers {
+    height: 100px;
+    width: 175px;
+}
+
+#placeholder-project {
+    position: relative;
+    left: 20px;
+    top: -50px;
+    width: 150px;
+    color: black;
+    background-color: lightgrey;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-heading {
+    color: navy;
+}
