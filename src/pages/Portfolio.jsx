@@ -10,9 +10,6 @@ export default function Portfolio() {
         {/* Project One ********************************************************/}
         <div>
           <h4>Green Thumb Guide</h4>
-            {/* Import projects */}
-          
-          
           <p id="green-title">Green Thumb Guide</p>
         </div>
 
@@ -27,14 +24,6 @@ export default function Portfolio() {
             improve SEO as well as comply with AAA standards. This assignment
             displayed the skills I had learned in HTML and CSS.
           </p>
-           {/* Add link to deployed site */}
-          <a href="https://github.com/SherryK1103/MVC-Tech-Blog">
-            <img
-              src="../assets/images/MVC-SS.png"
-              alt="screenshot of MVC Tech Blog"
-              className="mvc-photo"
-            />
-          </a>
           <p id="mvc-title">MVc Tech Blog</p>
         </div>
 
@@ -126,26 +115,7 @@ export default function Portfolio() {
           <p id="project_one_title">SEO HTML Refactor</p>
         </div>
 
-        {/* Project Seven **********************************************************/}
-        <div className="card">
-          <h4>Coding Quiz</h4>
-          <p>
-            The SEO HTML Refactor assignment was my first project at the
-            NorthWestern University Coding Bootcamp. We were given a webpage
-            with code and were charged with consolidating redundant code,
-            changing it from non-semantic elements to semantic elements to
-            improve SEO as well as comply with AAA standards. This assignment
-            displayed the skills I had learned in HTML and CSS.
-          </p>
-           {/* Add link to deployed site */}
-          <a href="https://sherryk1103.github.io/SEO_HTML-Refactor/">
-            <img
-              src="../assets/images/WEB-API-SCREENSHOT2.png"
-              alt="screenshot of coding quiz"
-              className="first-webpage-photo"
-            />
-          </a>
-          <p id="project_one_title">SEO HTML Refactor</p>
+      
         </div>
 
       </section>

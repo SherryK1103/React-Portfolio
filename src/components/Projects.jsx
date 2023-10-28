@@ -28,34 +28,33 @@ function Projects() {
     {
       name: 'MVC Tech Blog',
       description: 'Write about MVC Tech Blog here.',
-          
-          link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
+      link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
       imageSrc: { mvcPhoto },
     },
 
     {
-      name: 'MVC Tech Blog',
+      name: 'Note Taker',
       description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       imageSrc: { greenThumb },
     },
 
     {
-      name: 'MVC Tech Blog',
+      name: '50 States Flash Facts',
       description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       imageSrc: { greenThumb },
     },
 
     {
-      name: 'MVC Tech Blog',
+      name: 'Weather Dashboard',
       description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       imageSrc: { greenThumb },
     },
 
     {
-      name: 'MVC Tech Blog',
+      name: 'Workday Scheduler',
       description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       imageSrc: { greenThumb },
