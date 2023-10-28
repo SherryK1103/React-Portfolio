@@ -1,5 +1,6 @@
 import greenThumb from '../assets/images/GREEN-THUMB-SS.png';
 // import all other photos up here
+import mvcPhoto from '../assets/images/MVC-SS.png';
 
 function ProjectCard({ name, description, link, imageSrc }) {
   return (
@@ -18,11 +19,47 @@ function Projects() {
   const projectData = [
     {
       name: 'Green Thumb Guide',
-      description: 'Talk about the Green Thumb Guide HERE.',
+      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       imageSrc: { greenThumb },
     },
     // Add data for other projects here
+
+    {
+      name: 'MVC Tech Blog',
+      description: 'Write about MVC Tech Blog here.',
+          
+          link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
+      imageSrc: { mvcPhoto },
+    },
+
+    {
+      name: 'MVC Tech Blog',
+      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
+      link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
+      imageSrc: { greenThumb },
+    },
+
+    {
+      name: 'MVC Tech Blog',
+      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
+      link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
+      imageSrc: { greenThumb },
+    },
+
+    {
+      name: 'MVC Tech Blog',
+      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
+      link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
+      imageSrc: { greenThumb },
+    },
+
+    {
+      name: 'MVC Tech Blog',
+      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
+      link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
+      imageSrc: { greenThumb },
+    },
   ];
 
   // Below is like a for-loop, pulls from line 17, does a for-loop thingy, and then lines 3-14 formats the card how all the data is supposed to look.
