@@ -1,0 +1,19 @@
+* { font-family: 'Raleway', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.job-entry {
+    text-align: left;
+    h2, p, ul, li {
+      text-align: left;
+    }
+  }
+  
+  .email {
+    text-align: center;
+  }

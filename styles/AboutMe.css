@@ -1,0 +1,30 @@
+* { font-family: 'Raleway', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.sherry-photo {
+    height: 275px;
+    width: 200px;
+  }
+  
+  #about-section {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  #about-photo {
+    float: left;
+    margin: 10px;
+  }
+  
+  #about-me {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 0;
+    flex: 1;
+  }

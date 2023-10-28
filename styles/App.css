@@ -7,7 +7,11 @@
   padding: 2rem;
 }
 
-.logo {
+.sub-heading {
+  color: navy;
+}
+
+/* .logo {
   height: 6em;
   padding: 1.5em;
   will-change: filter;
@@ -18,7 +22,7 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
-}
+} */
 
 h1 {
   text-align: center;
@@ -86,19 +90,7 @@ label {
   width: 300px;
 }
 
-.first-webpage-photo {
-    height: 200px;
-    width: 350px;
-}
 
-#project_one_title {
-    position: relative;
-    left: 20px;
-    top: -50px;
-    width: 150px;
-    color: black;
-    background-color: lightgrey;
-}
 
 @media screen and (max-width:600px) {
     body {
@@ -106,25 +98,4 @@ label {
     }
 }
 
-.photo-of-flowers {
-    height: 100px;
-    width: 175px;
-}
 
-#placeholder-project {
-    position: relative;
-    left: 20px;
-    top: -50px;
-    width: 150px;
-    color: black;
-    background-color: lightgrey;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-around;
-}
-
-.sub-heading {
-    color: navy;
-}
