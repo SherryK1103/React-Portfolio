@@ -11,7 +11,6 @@ h1 {
     text-align: center;
   }
 
-.Green-Thumb-Guide-ss {
-  height: 75px;
-  width: 100px;
-}
+  .image-card {
+    padding: 10px 10px 10px 10px;
+  }
