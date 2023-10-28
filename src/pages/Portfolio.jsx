@@ -1,4 +1,5 @@
 import Projects from '../components/Projects';
+import './ProjectPort.css';
 
 export default function Portfolio() {
   return (

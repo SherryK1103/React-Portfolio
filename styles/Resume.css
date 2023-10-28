@@ -7,6 +7,10 @@
   padding: 2rem;
 }
 
+h1 {
+    text-align: center;
+  }
+
 .job-entry {
     text-align: left;
     h2, p, ul, li {

@@ -7,6 +7,10 @@
   padding: 2rem;
 }
 
+h1 {
+    text-align: center;
+  }
+
 .sherry-photo {
     height: 275px;
     width: 200px;

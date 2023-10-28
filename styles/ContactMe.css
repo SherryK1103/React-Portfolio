@@ -7,6 +7,10 @@
   padding: 2rem;
 }
 
+h1 {
+    text-align: center;
+  }
+  
 #contact-me {
     text-align: center;
   }

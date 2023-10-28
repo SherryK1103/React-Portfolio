@@ -1,4 +1,5 @@
 import myPhoto from '../assets/images/Sherry-Kneitz.jpg';
+import './AboutMe.css';
 
 export default function About() {
   return (
