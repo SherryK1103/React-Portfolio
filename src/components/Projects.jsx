@@ -37,6 +37,7 @@ function Projects() {
       name: 'MVC Tech Blog',
       description: 'A CMS-style blog site with the purpose of publishing articles, blog posts, and sharing thoughts and opinions.',
       link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
+      deployedLink: 'https://vast-dusk-28814-bab9820d09f9.herokuapp.com/',
       imageSrc: { mvcPhoto },
     },
     {
