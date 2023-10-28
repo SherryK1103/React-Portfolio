@@ -28,7 +28,7 @@ h1 {
   text-align: center;
 }
 
-.job-entry {
+/* .job-entry {
   text-align: left;
   h2, p, ul, li {
     text-align: left;
@@ -83,7 +83,7 @@ label {
 
 #links {
   list-style: none;
-}
+} */
 
 .green-thumb-ss {
   height: 200px;
