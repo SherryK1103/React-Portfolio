@@ -1,3 +1,5 @@
+import '../styles/ProjectPort.css';
+
 import greenThumb from '../assets/images/GREEN-THUMB-SS.png';
 import mvcPhoto from '../assets/images/MVC-SS.png';
 import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
@@ -31,42 +33,42 @@ function Projects() {
       description: 'A website where you can search a plant database on how to best care for your indoor plants.',
       link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
       deployedLink: 'https://green-thumb-guide-dbdcfacbedc6.herokuapp.com/',
-      imageSrc: { greenThumb },
+      imageSrc: greenThumb,
     },
     {
       name: 'MVC Tech Blog',
       description: 'A CMS-style blog site with the purpose of publishing articles, blog posts, and sharing thoughts and opinions.',
       link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
       deployedLink: 'https://vast-dusk-28814-bab9820d09f9.herokuapp.com/',
-      imageSrc: { mvcPhoto },
+      imageSrc: mvcPhoto,
     },
     {
       name: 'Note Taker',
       description: 'A platform that enables users to write and save notes. This platform aims to facilitate users in organizing their thoughts and tracking tasks that need completion.',
       link: 'https://github.com/SherryK1103/Note-Taker-08',
       deployedLink: 'https://intense-chamber-09330-07a5b76c6b1e.herokuapp.com/',
-      imageSrc: { notePhoto },
+      imageSrc: notePhoto,
     },
     {
       name: '50 States Flash Facts',
       description: 'A website where you can easily learn some basic and quick facts about each of the 50 United States of America in a flashcard-like format.',
       link: 'https://github.com/SherryK1103/Group-Challenge-01-50-States',
       deployedLink: 'https://sherryk1103.github.io/Group-Challenge-01-50-States/',
-      imageSrc: { fiftyStates },
+      imageSrc: fiftyStates,
     },
     {
       name: 'Weather Dashboard',
       description: 'An application where the user can view the current day weather as well as a 5 day forecast for any city that typed into the search bar, and view all previously searched cities.',
       link: 'https://github.com/SherryK1103/Weather-Dashboard-06',
       deployedLink: 'https://sherryk1103.github.io/Weather-Dashboard-06/',
-      imageSrc: { weatherDash },
+      imageSrc: weatherDash,
     },
     {
       name: 'Workday Scheduler',
       description: 'A web application where the user can schedule their day down to the hour.',
       link: 'https://github.com/SherryK1103/Workday-Scheduler-5',
       deployedLink: 'https://sherryk1103.github.io/Workday-Scheduler-5/',
-      imageSrc: { workDay },
+      imageSrc: workDay,
     },
   ];
 
