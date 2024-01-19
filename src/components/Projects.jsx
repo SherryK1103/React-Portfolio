@@ -2,6 +2,7 @@ import '../styles/ProjectPort.css';
 
 // import mvcPhoto from '../assets/images/MVC-SS.png';
 // import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
+import pwa from '../assets/images/pwa-text-ss.png';
 import fiftyStates from '../assets/images/50-STATES-SCREENSHOT.png';
 import weatherDash from '../assets/images/WEATHER-DASH-SS.png';
 import workDay from '../assets/images/workday-scheduler-5.png';
@@ -41,6 +42,20 @@ function Projects() {
     //   deployedLink: 'https://intense-chamber-09330-07a5b76c6b1e.herokuapp.com/',
     //   imageSrc: notePhoto,
     // },
+    {
+      name: 'Pro Web App Text Editor',
+      description: 'A web-based tool designed for professionals in diverse domains, enabling streamlined text-related tasks with a focus on functionality and efficiency.',
+      link: 'https://github.com/SherryK1103/Pro-Web-App-Text-Editor',
+      deployedLink: 'https://blooming-escarpment-06547-d9b53bb8c380.herokuapp.com/',
+      imageSrc: pwa,
+    },
+    {
+      name: 'E-Commerce Back End',
+      description: 'A functional Express.js API with Sequelize to interact with a MySQL database for an e-commerce website.',
+      link: 'https://github.com/SherryK1103/Pro-Web-App-Text-Editor',
+      deployedLink: 'https://blooming-escarpment-06547-d9b53bb8c380.herokuapp.com/',
+      imageSrc: pwa,
+    },
     {
       name: '50 States Flash Facts',
       description: 'A website where you can easily learn some basic and quick facts about each of the 50 United States of America in a flashcard-like format.',
