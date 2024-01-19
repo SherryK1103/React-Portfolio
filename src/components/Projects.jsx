@@ -1,6 +1,5 @@
 import '../styles/ProjectPort.css';
 
-import greenThumb from '../assets/images/GREEN-THUMB-SS.png';
 import mvcPhoto from '../assets/images/MVC-SS.png';
 import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
 import fiftyStates from '../assets/images/50-STATES-SCREENSHOT.png';
@@ -28,13 +27,6 @@ function ProjectCard({ name, description, link, deployedLink, imageSrc }) {
 
 function Projects() {
   const projectData = [
-    {
-      name: 'Green Thumb Guide',
-      description: 'A website where you can search a plant database on how to best care for your indoor plants.',
-      link: 'https://github.com/SherryK1103/Green-Thumb-Guide',
-      deployedLink: 'https://green-thumb-guide-dbdcfacbedc6.herokuapp.com/',
-      imageSrc: greenThumb,
-    },
     {
       name: 'MVC Tech Blog',
       description: 'A CMS-style blog site with the purpose of publishing articles, blog posts, and sharing thoughts and opinions.',

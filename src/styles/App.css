@@ -85,12 +85,6 @@ label {
   list-style: none;
 } */
 
-.green-thumb-ss {
-  height: 200px;
-  width: 300px;
-}
-
-
 
 @media screen and (max-width:600px) {
     body {
