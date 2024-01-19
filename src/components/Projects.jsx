@@ -1,6 +1,6 @@
 import '../styles/ProjectPort.css';
 
-import mvcPhoto from '../assets/images/MVC-SS.png';
+// import mvcPhoto from '../assets/images/MVC-SS.png';
 import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
 import fiftyStates from '../assets/images/50-STATES-SCREENSHOT.png';
 import weatherDash from '../assets/images/WEATHER-DASH-SS.png';
@@ -27,13 +27,13 @@ function ProjectCard({ name, description, link, deployedLink, imageSrc }) {
 
 function Projects() {
   const projectData = [
-    {
-      name: 'MVC Tech Blog',
-      description: 'A CMS-style blog site with the purpose of publishing articles, blog posts, and sharing thoughts and opinions.',
-      link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
-      deployedLink: 'https://vast-dusk-28814-bab9820d09f9.herokuapp.com/',
-      imageSrc: mvcPhoto,
-    },
+    // {
+    //   name: 'MVC Tech Blog',
+    //   description: 'A CMS-style blog site with the purpose of publishing articles, blog posts, and sharing thoughts and opinions.',
+    //   link: 'https://github.com/SherryK1103/MVC-Tech-Blog',
+    //   deployedLink: 'https://vast-dusk-28814-bab9820d09f9.herokuapp.com/',
+    //   imageSrc: mvcPhoto,
+    // },
     {
       name: 'Note Taker',
       description: 'A platform that enables users to write and save notes. This platform aims to facilitate users in organizing their thoughts and tracking tasks that need completion.',
