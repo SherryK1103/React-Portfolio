@@ -52,7 +52,7 @@ function Projects() {
       name: 'Weather Dashboard',
       description: 'An application where the user can view the current day weather as well as a 5 day forecast for any city that typed into the search bar, and view all previously searched cities.',
       link: 'https://github.com/SherryK1103/Weather-Dashboard-06',
-      deployedLink: 'https://sherryk1103.github.io/Weather-Dashboard-06/',
+      deployedLink: 'https://sherryk1103.github.io/Weather-Dashboard/',
       imageSrc: weatherDash,
     },
     {
