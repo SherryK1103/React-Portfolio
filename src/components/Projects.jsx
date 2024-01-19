@@ -1,7 +1,7 @@
 import '../styles/ProjectPort.css';
 
 // import mvcPhoto from '../assets/images/MVC-SS.png';
-import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
+// import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
 import fiftyStates from '../assets/images/50-STATES-SCREENSHOT.png';
 import weatherDash from '../assets/images/WEATHER-DASH-SS.png';
 import workDay from '../assets/images/workday-scheduler-5.png';
@@ -34,13 +34,13 @@ function Projects() {
     //   deployedLink: 'https://vast-dusk-28814-bab9820d09f9.herokuapp.com/',
     //   imageSrc: mvcPhoto,
     // },
-    {
-      name: 'Note Taker',
-      description: 'A platform that enables users to write and save notes. This platform aims to facilitate users in organizing their thoughts and tracking tasks that need completion.',
-      link: 'https://github.com/SherryK1103/Note-Taker-08',
-      deployedLink: 'https://intense-chamber-09330-07a5b76c6b1e.herokuapp.com/',
-      imageSrc: notePhoto,
-    },
+    // {
+    //   name: 'Note Taker',
+    //   description: 'A platform that enables users to write and save notes. This platform aims to facilitate users in organizing their thoughts and tracking tasks that need completion.',
+    //   link: 'https://github.com/SherryK1103/Note-Taker-08',
+    //   deployedLink: 'https://intense-chamber-09330-07a5b76c6b1e.herokuapp.com/',
+    //   imageSrc: notePhoto,
+    // },
     {
       name: '50 States Flash Facts',
       description: 'A website where you can easily learn some basic and quick facts about each of the 50 United States of America in a flashcard-like format.',
@@ -59,7 +59,7 @@ function Projects() {
       name: 'Workday Scheduler',
       description: 'A web application where the user can schedule their day down to the hour.',
       link: 'https://github.com/SherryK1103/Workday-Scheduler-5',
-      deployedLink: 'https://sherryk1103.github.io/Workday-Scheduler-5/',
+      deployedLink: 'https://sherryk1103.github.io/Workday-Scheduler/',
       imageSrc: workDay,
     },
   ];
