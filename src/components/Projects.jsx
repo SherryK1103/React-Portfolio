@@ -3,6 +3,7 @@ import '../styles/ProjectPort.css';
 // import mvcPhoto from '../assets/images/MVC-SS.png';
 // import notePhoto from '../assets/images/NOTE-TAKER-SC.png';
 import pwa from '../assets/images/pwa-text-ss.png';
+import ecom from '../assets/images/ecom-ss.png';
 import fiftyStates from '../assets/images/50-STATES-SCREENSHOT.png';
 import weatherDash from '../assets/images/WEATHER-DASH-SS.png';
 import workDay from '../assets/images/workday-scheduler-5.png';
@@ -52,9 +53,9 @@ function Projects() {
     {
       name: 'E-Commerce Back End',
       description: 'A functional Express.js API with Sequelize to interact with a MySQL database for an e-commerce website.',
-      link: 'https://github.com/SherryK1103/Pro-Web-App-Text-Editor',
-      deployedLink: 'https://blooming-escarpment-06547-d9b53bb8c380.herokuapp.com/',
-      imageSrc: pwa,
+      link: 'https://github.com/SherryK1103/E-Commerce-Back-End',
+      deployedLink: 'https://drive.google.com/file/d/174liSHEB_nrz9nCrZYTgBmyHWvEkrQNI/view',
+      imageSrc: ecom,
     },
     {
       name: '50 States Flash Facts',
