@@ -60,8 +60,8 @@ function Projects() {
     {
       name: '50 States Flash Facts',
       description: 'A website where you can easily learn some basic and quick facts about each of the 50 United States of America in a flashcard-like format.',
-      link: 'https://github.com/SherryK1103/Group-Challenge-01-50-States',
-      deployedLink: 'https://sherryk1103.github.io/Group-Challenge-01-50-States/',
+      link: 'https://github.com/SherryK1103/50-States-Flash-Facts',
+      deployedLink: 'https://sherryk1103.github.io/50-States-Flash-Facts/',
       imageSrc: fiftyStates,
     },
     {
