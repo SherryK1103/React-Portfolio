@@ -12,11 +12,26 @@ h1 {
   }
 
   .image-card {
-    padding: 10px;
+    padding: 1px;
   }
 
   .image-card img {
-    width: 50%; /* Makes the image take up the full width of its container */
+    width: 75%; /* Makes the image take up the full width of its container */
     height: 300px;
-    border-radius: 8px;
   }
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the cards horizontally */
+}
+
+.card {
+  width: 85%;
+  text-align: left;
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: lightcyan;
+  max-width: 800px; /* Set a maximum width for the cards */
+}
