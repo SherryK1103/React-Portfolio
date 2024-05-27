@@ -1,3 +1,5 @@
+// Projects.jsx //
+
 import '../styles/ProjectPort.css';
 
 // import mvcPhoto from '../assets/images/MVC-SS.png';
@@ -20,7 +22,10 @@ function ProjectCard({ name, description, link, deployedLink, imageSrc }) {
       <a href={link} target="_blank" rel="noopener noreferrer">
         View GitHub Repository
       </a>
-      <div class="image-card"><img src={imageSrc} alt={`screenshot of ${name}`} className={`${name}-ss`} /></div>
+      <div className="image-card">
+        <a href={deployedLink} target="_blank" rel="noopener noreferrer">
+          <img src={imageSrc} alt={`screenshot of ${name}`} /></a>
+        </div>
       <p id={`${name.toLowerCase().replace(/ /g, '-')}-title`}>{name}</p>
     </div>
   );
