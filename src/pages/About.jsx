@@ -1,4 +1,4 @@
-import myPhoto from '../assets/images/Sherry-Kneitz.jpg';
+import myPhoto from '../assets/images/Sherry-July.jpg';
 import '../styles/AboutMe.css';
 
 export default function About() {
